@@ -2,7 +2,7 @@
 
 ## Part I - WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+In this example, we will be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we will be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -26,7 +26,7 @@ The second requirement is to run linear regression on each relationship. This ti
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
 
-Your final notebook must:
+Final notebook must:
 
 * Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
 * Perform a weather check on each of the cities using a series of successive API calls.
@@ -35,11 +35,11 @@ Your final notebook must:
 
 ### Part II - VacationPy
 
-To complete this part of the assignment,you will need to do the following:
+To complete this part of the assignment, do the following:
 
 * Create a heat map that displays the humidity for every city from Part I.
 
-  ![heatmap](Images/heatmap.png)
+  ![heatmap](https://github.com/azmir0218/python-api-challenge/blob/main/WeatherPy/Screen%20Shot%202021-10-23%20at%209.04.18%20PM.png)
 
 * Narrow down the DataFrame to find your ideal weather condition. For example:
 
@@ -61,10 +61,10 @@ To complete this part of the assignment,you will need to do the following:
 
 As final considerations:
 
-* You must complete your analysis using a Jupyter notebook.
-* You must use the Matplotlib or Pandas plotting libraries.
-* For Part I, you must include a written description of three observable trends based on the data.
-* For Part II, you must include a screenshot of the heatmap you create and include it in your submission.
-* You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
+* Complete the analysis using a Jupyter notebook.
+* Must use the Matplotlib or Pandas plotting libraries.
+* For Part I, must include a written description of three observable trends based on the data.
+* For Part II, must include a screenshot of the heatmap you create and include it in submission.
+* Must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
 * For max intensity in the heat map, try setting it to the highest humidity found in the data set.
 
