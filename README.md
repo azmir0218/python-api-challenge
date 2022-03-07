@@ -53,7 +53,6 @@ Finally we will:
 
 * Ploted the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-  ![hotel map](Images/hotel_map.png)
 
 ## Tools Used:
 
